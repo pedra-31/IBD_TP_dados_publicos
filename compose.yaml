@@ -1,0 +1,33 @@
+networks:
+  bridge:
+    driver: bridge
+
+services:
+  db:
+    image: postgres:16
+    container_name: postgres_data
+    environment:
+      POSTGRES_USER: user
+      POSTGRES_PASSWORD: password
+      POSTGRES_DB: analytics
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    networks:
+      - bridge
+
+  python:
+    build: ./python
+    container_name: python_etl
+    volumes:
+      - ./python:/app
+      - ./data:/data
+      - ./sql:/sql
+    depends_on:
+      - db
+    tty: true
+    networks:
+      - bridge
+volumes:
+  postgres_data:
