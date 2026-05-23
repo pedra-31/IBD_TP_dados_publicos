@@ -3,23 +3,33 @@ CREATE TABLE Prestador (
     nome_prestador VARCHAR(200),
     sigla_prestador VARCHAR(20),
     abrangencia_prestador VARCHAR(50),
-    tipo_prestador VARCHAR(150),
-    tipo_servico VARCHAR(100)
+    tipo_prestador VARCHAR(150)
 );
 
 CREATE TABLE Municipio (
     cod_munip INT PRIMARY KEY,
     nome_munip VARCHAR(150) NOT NULL,
-    pop_munip INT,
-    cod_prestador INT,
-
-    CONSTRAINT fk_municipio_prestador
-        FOREIGN KEY (cod_prestador)
-        REFERENCES prestador (cod_prestador)
+    pop_munip INT
 );
 
--- 1 : 1 Municipio e Fato_saneamento, mas facilita a leitura/entendimento do modelo
-CREATE TABLE Fato_saneamento (
+CREATE TABLE Prestador_Municipio (
+    cod_prestador INT,
+    cod_munip INT,
+    tipo_servico VARCHAR(100),
+    CONSTRAINT pk_prestador_municipio PRIMARY KEY (cod_prestador, cod_munip),
+
+    CONSTRAINT fk_municipio
+        FOREIGN KEY (cod_munip)
+        REFERENCES Municipio (cod_munip)
+        ON DELETE CASCADE,
+    CONSTRAINT fk_prestador
+        FOREIGN KEY (cod_prestador)
+        REFERENCES Prestador (cod_prestador)
+        ON DELETE CASCADE
+);
+
+-- 1 : 1 Municipio e Fato_Saneamento, mas facilita a leitura/entendimento do modelo
+CREATE TABLE Fato_Saneamento (
     cod_munip INT PRIMARY KEY,
     pop_atendida_agua INT,
     vol_agua_anual NUMERIC(15,2),
@@ -35,7 +45,7 @@ CREATE TABLE Fato_saneamento (
     amostra_turbidez_irregular INT,
     amostra_coliformes INT,
     amostra_coliformes_irregular INT,
-    
+
     CONSTRAINT fk_fato_saneamento_municipio
         FOREIGN KEY (cod_munip)
         REFERENCES municipio (cod_munip)
