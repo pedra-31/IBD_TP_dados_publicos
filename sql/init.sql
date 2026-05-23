@@ -35,19 +35,21 @@ CREATE TABLE Fato_saneamento (
     amostra_turbidez_irregular INT,
     amostra_coliformes INT,
     amostra_coliformes_irregular INT,
+    
     CONSTRAINT fk_fato_saneamento_municipio
         FOREIGN KEY (cod_munip)
         REFERENCES municipio (cod_munip)
         ON DELETE CASCADE
 );
 
--- 1 : 1 Municipio e Fato_doencas, mas facilita a leitura/entendimento do modelo
-CREATE TABLE Fato_doencas (
-    cod_munip INT PRIMARY KEY,
-    total_casos_esquistossomose INT NOT NULL DEFAULT 0,
-    total_casos_leptospirose INT NOT NULL DEFAULT 0,
-    total_casos_colera INT NOT NULL DEFAULT 0,
-    CONSTRAINT fk_fato_doencas_municipio
+-- 1 : n Municipio e Doenca
+CREATE TABLE Doenca (
+    cod_munip INT,
+    nome_doenca VARCHAR(200),
+    total_casos INT NOT NULL DEFAULT 0,
+    CONSTRAINT pk_doenca PRIMARY KEY (cod_munip, nome_doenca),
+
+    CONSTRAINT fk_doenca_municipio
         FOREIGN KEY (cod_munip)
         REFERENCES municipio (cod_munip)
         ON DELETE CASCADE
