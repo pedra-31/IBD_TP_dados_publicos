@@ -9,8 +9,8 @@ CREATE TABLE IF NOT EXISTS Prestador (
 CREATE TABLE IF NOT EXISTS Municipio (
     cod_munip INT PRIMARY KEY,
     nome_munip VARCHAR(150) NOT NULL,
-    pop_munip INT
-    tipo_servico_recebido VARCHAR(100),
+    pop_munip INT,
+    tipo_servico_recebido VARCHAR(100)
 );
 
 -- 1 : 1 Municipio e Fato_Saneamento, mas facilita a leitura/entendimento do modelo
