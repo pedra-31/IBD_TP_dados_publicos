@@ -5,16 +5,16 @@ networks:
 services:
   db:
     image: postgres:16
-    container_name: postgres_data
+    container_name: IBD_postgres_data
     environment:
       POSTGRES_USER: user
       POSTGRES_PASSWORD: password
       POSTGRES_DB: analytics
     ports:
-      - "5432:5432"
+      - "5678:5678"
     volumes:
-      - postgres_data:/var/lib/postgresql/data
-      - ./sql:/docker-entrypoint-initdb.d
+      - IBD_postgres_data:/var/lib/postgresql/data
+      - ./sql:/docker-entrypoint-initdb.d:ro
       - ./csv/imports:/imports:ro
     networks:
       - bridge
@@ -29,4 +29,4 @@ services:
     ports:
       - "8050:8050"
 volumes:
-  postgres_data:
+  IBD_postgres_data:

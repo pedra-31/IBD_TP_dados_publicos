@@ -49,6 +49,7 @@ CREATE TABLE IF NOT EXISTS raw_saneamento_minas_municipios (
 );
 
 -- Criando uma tabela auxiliar
+DROP TABLE IF EXISTS raw_saneamento_minas_municipios_staging;
 CREATE TABLE raw_saneamento_minas_municipios_staging (
     cod_munip TEXT,
     nome_munip TEXT,
@@ -160,6 +161,6 @@ SELECT
 FROM raw_saneamento_minas_municipios_staging
 WHERE cod_munip IS NOT NULL
   AND TRIM(cod_munip) != ''
-  AND cod_munip NOT IN ('-', 'cod_munip')
+  AND cod_munip NOT IN ('-', 'cod_munip');
 
 DROP TABLE raw_saneamento_minas_municipios_staging;

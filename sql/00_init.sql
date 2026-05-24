@@ -1,4 +1,4 @@
-CREATE TABLE Prestador (
+CREATE TABLE IF NOT EXISTS Prestador (
     cod_prestador INT PRIMARY KEY,
     nome_prestador VARCHAR(200),
     sigla_prestador VARCHAR(20),
@@ -6,13 +6,13 @@ CREATE TABLE Prestador (
     tipo_prestador VARCHAR(150)
 );
 
-CREATE TABLE Municipio (
+CREATE TABLE IF NOT EXISTS Municipio (
     cod_munip INT PRIMARY KEY,
     nome_munip VARCHAR(150) NOT NULL,
     pop_munip INT
 );
 
-CREATE TABLE Prestador_Municipio (
+CREATE TABLE IF NOT EXISTS Prestador_Municipio (
     cod_prestador INT,
     cod_munip INT,
     tipo_servico VARCHAR(100),
@@ -29,7 +29,7 @@ CREATE TABLE Prestador_Municipio (
 );
 
 -- 1 : 1 Municipio e Fato_Saneamento, mas facilita a leitura/entendimento do modelo
-CREATE TABLE Fato_Saneamento (
+CREATE TABLE IF NOT EXISTS Fato_Saneamento (
     cod_munip INT PRIMARY KEY,
     pop_atendida_agua INT,
     vol_agua_anual NUMERIC(15,2),
@@ -52,15 +52,24 @@ CREATE TABLE Fato_Saneamento (
         ON DELETE CASCADE
 );
 
--- 1 : n Municipio e Doenca
-CREATE TABLE Doenca (
-    cod_munip INT,
-    nome_doenca VARCHAR(200),
-    total_casos INT NOT NULL DEFAULT 0,
-    CONSTRAINT pk_doenca PRIMARY KEY (cod_munip, nome_doenca),
+CREATE TABLE IF NOT EXISTS Doenca (
+    cod_doenca SERIAL PRIMARY KEY,
+    nome_doenca VARCHAR(200)
+);
 
-    CONSTRAINT fk_doenca_municipio
+CREATE TABLE IF NOT EXISTS Doenca_Municipio (
+    cod_doenca INT,
+    cod_munip INT,
+    total_casos INT NOT NULL DEFAULT 0,
+    CONSTRAINT pk_doenca_municipio PRIMARY KEY (cod_doenca, cod_munip),
+
+    CONSTRAINT fk_doenca
+        FOREIGN KEY (cod_doenca)
+        REFERENCES Doenca (cod_doenca)
+        ON DELETE CASCADE,
+    
+    CONSTRAINT fk_municipio
         FOREIGN KEY (cod_munip)
-        REFERENCES municipio (cod_munip)
+        REFERENCES Municipio (cod_munip)
         ON DELETE CASCADE
 );
