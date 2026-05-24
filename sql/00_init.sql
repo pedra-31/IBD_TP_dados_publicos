@@ -10,22 +10,7 @@ CREATE TABLE IF NOT EXISTS Municipio (
     cod_munip INT PRIMARY KEY,
     nome_munip VARCHAR(150) NOT NULL,
     pop_munip INT
-);
-
-CREATE TABLE IF NOT EXISTS Prestador_Municipio (
-    cod_prestador INT,
-    cod_munip INT,
-    tipo_servico VARCHAR(100),
-    CONSTRAINT pk_prestador_municipio PRIMARY KEY (cod_prestador, cod_munip),
-
-    CONSTRAINT fk_municipio
-        FOREIGN KEY (cod_munip)
-        REFERENCES Municipio (cod_munip)
-        ON DELETE CASCADE,
-    CONSTRAINT fk_prestador
-        FOREIGN KEY (cod_prestador)
-        REFERENCES Prestador (cod_prestador)
-        ON DELETE CASCADE
+    tipo_servico_recebido VARCHAR(100),
 );
 
 -- 1 : 1 Municipio e Fato_Saneamento, mas facilita a leitura/entendimento do modelo
@@ -57,6 +42,7 @@ CREATE TABLE IF NOT EXISTS Doenca (
     nome_doenca VARCHAR(200)
 );
 
+--Tabela N:M entre Doenca e Municipio com o atributo relacional total_casos
 CREATE TABLE IF NOT EXISTS Doenca_Municipio (
     cod_doenca INT,
     cod_munip INT,

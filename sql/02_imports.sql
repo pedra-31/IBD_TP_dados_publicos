@@ -3,11 +3,13 @@ INSERT INTO Municipio (
     cod_munip,
     nome_munip,
     pop_munip
+    tipo_servico_recebido
 )
 SELECT
     cod_munip::INT,
     nome_munip,
     NULLIF(REPLACE(pop_munip, '.', ''), '')::INT
+    tipo_servico_recebido
 FROM raw_saneamento_minas_municipios;
 
 -- Inserindo os dados de raw_saneamento_minas_municipios em Fato_Saneamento
@@ -60,18 +62,6 @@ SELECT DISTINCT
     sigla_prestador,
     abrangencia_prestador,
     tipo_prestador
-FROM raw_saneamento_minas_municipios;
-
--- Inserindo os dados de raw_saneamento_minas_municipios em Prestador_Municipio
-INSERT INTO Prestador_Municipio (
-    cod_prestador,
-    cod_munip,
-    tipo_servico
-)
-SELECT DISTINCT
-    cod_prestador::INT,
-    cod_munip::INT,
-    tipo_servico
 FROM raw_saneamento_minas_municipios;
 
 -- Inserindo os nomes das doencas em Doenca
