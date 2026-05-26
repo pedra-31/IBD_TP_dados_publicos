@@ -1,0 +1,7 @@
+// Município - Header
+
+cod_munip,nome_munip,pop_munip,pop_atendida_agua,vol_agua_anual,vol_agua_eta,vol_agua_desinfec,vol_agua_fluor,pop_atendida_esgoto,vol_esgoto_coletado,vol_esgoto_tratado,amostra_cloro,amostra_cloro_irregular,amostra_turbidez,amostra_turbidez_irregular,amostra_coliformes,amostra_coliformes_irregular
+
+// Prestador - Header
+
+cod_prestador,nome_prestador,sigla_prestador,abrangencia_prestador,tipo_prestador,tipo_servico
