@@ -1,0 +1,1026 @@
+codigo_ibge,nome_municipio,sigla_uf,perc_atendimento_agua,perc_atendimento_esgoto
+310010,Abadia dos Dourados,MG,57.12,0.0
+310020,Abaeté,MG,84.66,9.17
+310050,Açucena,MG,36.35,0.0
+310060,Água Boa,MG,35.24,0.0
+310070,Água Comprida,MG,76.23,0.0
+310090,Águas Formosas,MG,72.3,0.0
+310100,Águas Vermelhas,MG,69.87,28.23
+310150,Além Paraíba,MG,79.84,57.15
+310160,Alfenas,MG,86.02,84.05
+310163,Alfredo Vasconcelos,MG,62.58,0.0
+310170,Almenara,MG,75.98,71.82
+310180,Alpercata,MG,62.14,0.0
+310190,Alpinópolis,MG,75.71,73.47
+310200,Alterosa,MG,72.29,0.0
+310210,Alto Rio Doce,MG,41.36,0.0
+310220,Alvarenga,MG,52.92,0.0
+310230,Alvinópolis,MG,55.53,0.0
+310240,Alvorada de Minas,MG,30.18,0.0
+310250,Amparo do Serra,MG,53.63,0.0
+310260,Andradas,MG,73.4,0.0
+310280,Andrelândia,MG,75.94,0.0
+310290,Antônio Carlos,MG,69.44,0.0
+310300,Antônio Dias,MG,39.36,0.0
+310310,Antônio Prado de Minas,MG,62.4,0.0
+310320,Araçaí,MG,74.28,0.0
+310330,Aracitaba,MG,75.78,0.0
+310340,Araçuaí,MG,65.26,41.26
+310360,Arantina,MG,84.89,0.0
+310370,Araponga,MG,37.64,0.0
+310400,Araxá,MG,93.28,93.36
+310410,Arceburgo,MG,82.78,79.37
+310420,Arcos,MG,90.87,0.0
+310430,Areado,MG,82.11,0.0
+310450,Arinos,MG,57.41,0.0
+310460,Astolfo Dutra,MG,83.49,0.0
+310470,Ataléia,MG,42.13,31.07
+310480,Augusto de Lima,MG,57.33,0.0
+310490,Baependi,MG,71.04,0.0
+310500,Baldim,MG,56.22,0.0
+310510,Bambuí,MG,82.92,0.0
+310540,Barão de Cocais,MG,76.4,0.0
+310550,Barão de Monte Alto,MG,70.59,0.0
+310560,Barbacena,MG,30.69,27.79
+310570,Barra Longa,MG,43.18,0.0
+310590,Barroso,MG,83.18,0.0
+310600,Bela Vista de Minas,MG,77.17,0.0
+310610,Belmiro Braga,MG,25.8,0.0
+310620,Belo Horizonte,MG,94.95,93.98
+310630,Belo Oriente,MG,71.94,0.0
+310640,Belo Vale,MG,43.55,0.0
+310665,Berizal,MG,56.01,0.0
+310670,Betim,MG,88.45,78.11
+310690,Bicas,MG,83.34,0.0
+310700,Biquinhas,MG,65.75,0.0
+310740,Bom Despacho,MG,90.08,86.51
+310750,Bom Jardim de Minas,MG,77.96,0.0
+310760,Bom Jesus da Penha,MG,71.55,0.0
+310770,Bom Jesus do Amparo,MG,44.6,0.0
+310780,Bom Jesus do Galho,MG,65.45,0.0
+310790,Bom Repouso,MG,53.15,51.62
+310810,Bonfim,MG,47.43,35.74
+310820,Bonfinópolis de Minas,MG,73.15,0.0
+310825,Bonito de Minas,MG,21.74,0.0
+310830,Borda da Mata,MG,69.1,68.21
+310840,Botelhos,MG,74.42,53.23
+310855,Brasilândia de Minas,MG,82.04,21.69
+310860,Brasília de Minas,MG,59.57,50.33
+310880,Braúnas,MG,33.44,0.0
+310890,Brazópolis,MG,55.79,0.0
+310900,Brumadinho,MG,69.41,41.71
+310910,Bueno Brandão,MG,52.02,49.67
+310920,Buenópolis,MG,62.24,55.74
+310925,Bugre,MG,33.56,0.0
+310930,Buritis,MG,64.42,26.82
+310950,Cabo Verde,MG,56.18,55.05
+310970,Cachoeira de Minas,MG,64.23,0.0
+310990,Caetanópolis,MG,72.73,0.0
+311010,Caiana,MG,51.34,0.0
+311020,Cajuri,MG,53.72,0.0
+311030,Caldas,MG,47.61,36.62
+311040,Camacho,MG,49.88,0.0
+311050,Camanducaia,MG,71.09,54.37
+311070,Cambuquira,MG,79.16,58.68
+311080,Campanário,MG,69.86,0.0
+311090,Campanha,MG,79.2,76.34
+311100,Campestre,MG,53.95,0.0
+311110,Campina Verde,MG,68.01,65.01
+311115,Campo Azul,MG,42.45,0.0
+311140,Campo Florido,MG,71.31,71.31
+311150,Campos Altos,MG,78.61,0.0
+311160,Campos Gerais,MG,65.66,0.0
+311170,Canaã,MG,41.65,0.0
+311180,Canápolis,MG,77.91,0.0
+311190,Cana Verde,MG,68.02,0.0
+311200,Candeias,MG,70.66,0.0
+311205,Cantagalo,MG,53.84,0.0
+311210,Caparaó,MG,32.12,0.0
+311220,Capela Nova,MG,43.0,0.0
+311230,Capelinha,MG,70.28,68.1
+311240,Capetinga,MG,78.25,7.14
+311250,Capim Branco,MG,89.09,19.85
+311260,Capinópolis,MG,79.69,0.0
+311270,Capitão Enéas,MG,63.04,39.3
+311280,Capitólio,MG,79.35,0.0
+311290,Caputira,MG,37.71,0.0
+311320,Carandaí,MG,76.06,0.0
+311340,Caratinga,MG,74.25,60.3
+311350,Carbonita,MG,74.6,58.83
+311360,Careaçu,MG,68.09,0.0
+311370,Carlos Chagas,MG,58.16,51.0
+311390,Carmo da Cachoeira,MG,70.88,64.34
+311430,Carmo do Paranaíba,MG,75.65,74.75
+311440,Carmo do Rio Claro,MG,67.1,64.79
+311455,Carneirinho,MG,65.22,60.73
+311470,Carvalhópolis,MG,72.94,0.0
+311480,Carvalhos,MG,44.39,34.6
+311500,Cascalho Rico,MG,62.13,0.0
+311510,Cássia,MG,77.37,0.0
+311520,Conceição da Barra de Minas,MG,66.44,43.62
+311530,Cataguases,MG,85.19,61.38
+311547,Catuti,MG,44.28,17.05
+311550,Caxambu,MG,86.4,84.51
+311560,Cedro do Abaeté,MG,67.65,0.0
+311580,Centralina,MG,74.16,36.46
+311590,Chácara,MG,61.1,0.0
+311615,Chapada Gaúcha,MG,48.65,0.0
+311630,Cipotânea,MG,46.42,0.0
+311650,Claro dos Poções,MG,67.3,27.51
+311660,Cláudio,MG,79.81,79.62
+311670,Coimbra,MG,65.3,0.0
+311680,Coluna,MG,43.88,0.0
+311690,Comendador Gomes,MG,46.99,0.0
+311710,Conceição da Aparecida,MG,59.82,0.0
+311750,Conceição do Mato Dentro,MG,59.8,48.18
+311760,Conceição do Pará,MG,38.75,31.9
+311770,Conceição do Rio Verde,MG,78.77,0.0
+311780,Conceição dos Ouros,MG,75.66,0.0
+311783,Cônego Marinho,MG,26.6,0.0
+311787,Confins,MG,96.23,0.0
+311790,Congonhal,MG,71.03,71.03
+311800,Congonhas,MG,80.04,64.01
+311820,Conquista,MG,77.63,68.54
+311830,Conselheiro Lafaiete,MG,83.1,74.18
+311860,Contagem,MG,86.35,81.32
+311880,Coração de Jesus,MG,40.11,20.34
+311890,Cordisburgo,MG,65.61,36.37
+311900,Cordislândia,MG,71.15,0.0
+311910,Corinto,MG,77.55,57.89
+311920,Coroaci,MG,52.51,0.0
+311930,Coromandel,MG,72.34,0.0
+311940,Coronel Fabriciano,MG,80.85,77.61
+311950,Coronel Murta,MG,57.45,36.96
+311970,Coronel Xavier Chaves,MG,54.9,0.0
+311980,Córrego Danta,MG,58.14,0.0
+312000,Córrego Novo,MG,72.02,0.0
+312020,Cristais,MG,75.4,0.0
+312030,Cristália,MG,43.07,22.35
+312040,Cristiano Otoni,MG,75.68,59.12
+312060,Crucilândia,MG,62.44,0.0
+312070,Cruzeiro da Fortaleza,MG,85.59,0.0
+312080,Cruzília,MG,86.16,80.92
+312083,Cuparaque,MG,15.42,0.0
+312087,Curral de Dentro,MG,74.67,0.0
+312090,Curvelo,MG,85.71,74.15
+312100,Datas,MG,59.69,0.0
+312120,Delfinópolis,MG,53.19,48.14
+312130,Descoberto,MG,80.95,0.0
+312150,Desterro do Melo,MG,48.48,46.46
+312160,Diamantina,MG,70.55,57.42
+312180,Dionísio,MG,47.23,0.0
+312190,Divinésia,MG,66.53,0.0
+312200,Divino,MG,50.79,45.06
+312210,Divino das Laranjeiras,MG,71.32,0.0
+312230,Divinópolis,MG,94.38,85.24
+312235,Divisa Alegre,MG,83.86,0.0
+312240,Divisa Nova,MG,74.91,0.0
+312245,Divisópolis,MG,66.03,27.81
+312250,Dom Cavati,MG,79.36,0.0
+312260,Dom Joaquim,MG,57.21,0.0
+312270,Dom Silvério,MG,79.61,0.0
+312290,Dona Eusébia,MG,77.7,0.0
+312320,Dores do Indaiá,MG,81.58,77.72
+312330,Dores do Turvo,MG,47.72,0.0
+312352,Durandé,MG,33.06,0.0
+312370,Engenheiro Caldas,MG,59.54,0.0
+312380,Engenheiro Navarro,MG,60.12,36.45
+312385,Entre Folhas,MG,68.92,0.0
+312390,Entre Rios de Minas,MG,68.61,0.0
+312400,Ervália,MG,52.76,0.0
+312410,Esmeraldas,MG,66.53,14.19
+312420,Espera Feliz,MG,60.83,0.0
+312430,Espinosa,MG,59.05,5.14
+312450,Estiva,MG,45.3,0.0
+312460,Estrela Dalva,MG,68.67,0.0
+312470,Estrela do Indaiá,MG,69.68,51.65
+312480,Estrela do Sul,MG,69.23,35.47
+312490,Eugenópolis,MG,60.49,0.0
+312510,Extrema,MG,81.47,64.93
+312520,Fama,MG,63.98,33.53
+312530,Faria Lemos,MG,67.36,0.0
+312570,Felixlândia,MG,73.36,0.0
+312580,Fernandes Tourinho,MG,51.49,0.0
+312590,Ferros,MG,31.95,0.0
+312600,Florestal,MG,80.56,0.0
+312620,Formoso,MG,59.94,0.0
+312630,Fortaleza de Minas,MG,67.13,0.0
+312660,Francisco Dumont,MG,62.98,25.38
+312675,Franciscópolis,MG,44.35,0.0
+312690,Frei Inocêncio,MG,67.39,0.0
+312700,Fronteira,MG,75.12,68.75
+312710,Frutal,MG,76.28,77.52
+312720,Funilândia,MG,50.77,28.76
+312735,Glaucilândia,MG,35.19,34.37
+312738,Goianá,MG,75.83,0.0
+312740,Gonçalves,MG,27.89,11.72
+312760,Gouveia,MG,71.96,0.0
+312780,Grão Mogol,MG,28.86,17.36
+312790,Grupiara,MG,76.05,0.0
+312820,Guaraciaba,MG,32.19,29.62
+312825,Guaraciama,MG,55.78,0.0
+312830,Guaranésia,MG,86.05,0.0
+312850,Guarará,MG,79.57,0.0
+312860,Guarda-Mor,MG,53.45,51.1
+312870,Guaxupé,MG,87.94,83.54
+312880,Guidoval,MG,63.36,0.0
+312890,Guimarânia,MG,76.71,74.07
+312900,Guiricema,MG,38.09,0.0
+312910,Gurinhatã,MG,43.67,0.0
+312920,Heliodora,MG,70.96,0.0
+312930,Iapu,MG,63.94,0.0
+312940,Ibertioga,MG,66.57,0.0
+312960,Ibiaí,MG,64.96,25.71
+312965,Ibiracatu,MG,58.58,0.0
+312970,Ibiraci,MG,64.02,60.64
+312980,Ibirité,MG,82.52,67.29
+312990,Ibitiúra de Minas,MG,68.52,0.0
+313005,Icaraí de Minas,MG,26.96,11.94
+313010,Igarapé,MG,83.04,40.66
+313020,Igaratinga,MG,56.54,0.0
+313050,Ilicínea,MG,77.06,0.0
+313055,Imbé de Minas,MG,30.49,0.0
+313060,Inconfidentes,MG,53.03,0.0
+313065,Indaiabira,MG,37.91,13.96
+313070,Indianópolis,MG,63.63,0.0
+313080,Ingaí,MG,57.81,0.0
+313090,Inhapim,MG,45.85,27.89
+313110,Inimutaba,MG,68.77,0.0
+313115,Ipaba,MG,74.07,0.0
+313130,Ipatinga,MG,85.04,92.2
+313150,Ipuiúna,MG,71.37,54.77
+313160,Iraí de Minas,MG,72.83,0.0
+313180,Itabirinha,MG,59.91,49.59
+313210,Itacarambi,MG,67.37,31.31
+313240,Itajubá,MG,83.72,77.83
+313250,Itamarandiba,MG,63.63,53.88
+313260,Itamarati de Minas,MG,74.08,0.0
+313290,Itamogi,MG,73.58,0.0
+313300,Itamonte,MG,66.68,0.0
+313320,Itanhomi,MG,66.87,0.0
+313330,Itaobim,MG,69.32,33.84
+313340,Itapagipe,MG,67.87,0.0
+313350,Itapecerica,MG,72.75,56.54
+313360,Itapeva,MG,50.2,41.31
+313370,Itatiaiuçu,MG,60.6,0.0
+313375,Itaú de Minas,MG,94.73,0.0
+313390,Itaverava,MG,30.58,0.0
+313410,Itueta,MG,55.65,0.0
+313430,Itumirim,MG,79.64,0.0
+313440,Iturama,MG,84.16,81.03
+313450,Itutinga,MG,69.3,0.0
+313460,Jaboticatubas,MG,59.23,38.82
+313470,Jacinto,MG,53.75,35.52
+313480,Jacuí,MG,61.82,0.0
+313505,Jaíba,MG,49.99,18.1
+313510,Janaúba,MG,88.77,24.28
+313520,Januária,MG,59.59,15.01
+313535,Japonvar,MG,33.17,0.0
+313560,Jequitaí,MG,60.94,0.0
+313570,Jequitibá,MG,35.86,0.0
+313580,Jequitinhonha,MG,58.0,45.78
+313600,Joaíma,MG,55.23,45.75
+313630,João Pinheiro,MG,72.74,68.54
+313640,Joaquim Felício,MG,50.47,0.0
+313650,Jordânia,MG,62.27,0.0
+313655,José Raydan,MG,34.37,0.0
+313660,Nova União,MG,52.29,0.0
+313665,Juatuba,MG,89.18,33.47
+313680,Juramento,MG,55.22,45.22
+313690,Juruaia,MG,46.81,0.0
+313695,Juvenília,MG,64.67,5.82
+313710,Lagamar,MG,58.86,0.0
+313730,Lagoa dos Patos,MG,65.36,44.66
+313740,Lagoa Dourada,MG,55.96,6.02
+313753,Lagoa Grande,MG,69.04,0.0
+313760,Lagoa Santa,MG,86.23,50.18
+313800,Laranjal,MG,66.67,0.0
+313820,Lavras,MG,89.5,86.1
+313830,Leandro Ferreira,MG,64.62,59.37
+313840,Leopoldina,MG,74.81,0.0
+313850,Liberdade,MG,74.49,0.0
+313862,Limeira do Oeste,MG,70.67,68.76
+313865,Lontra,MG,49.26,21.01
+313868,Luislândia,MG,46.84,0.0
+313880,Luz,MG,85.93,0.0
+313890,Machacalis,MG,78.22,0.0
+313910,Madre de Deus de Minas,MG,72.12,0.0
+313920,Malacacheta,MG,55.95,50.56
+313930,Manga,MG,65.2,12.33
+313970,Maravilhas,MG,66.35,0.0
+313980,Mar de Espanha,MG,82.44,0.0
+313990,Maria da Fé,MG,56.52,0.0
+314010,Marilac,MG,71.51,0.0
+314015,Mário Campos,MG,89.5,0.0
+314020,Maripá de Minas,MG,79.03,0.0
+314050,Martinho Campos,MG,82.43,48.94
+314053,Martins Soares,MG,22.74,0.0
+314055,Mata Verde,MG,79.62,79.62
+314060,Materlândia,MG,45.8,0.0
+314070,Mateus Leme,MG,69.93,39.82
+314080,Matias Barbosa,MG,92.81,0.0
+314085,Matias Cardoso,MG,49.83,0.0
+314090,Matipó,MG,72.99,0.0
+314100,Mato Verde,MG,77.48,0.0
+314110,Matozinhos,MG,81.98,60.79
+314120,Matutina,MG,69.09,0.0
+314130,Medeiros,MG,55.17,0.0
+314140,Medina,MG,65.47,60.99
+314160,Mercês,MG,68.06,0.0
+314180,Minas Novas,MG,37.13,20.5
+314190,Minduri,MG,80.62,0.0
+314200,Mirabela,MG,62.44,32.43
+314210,Miradouro,MG,54.22,0.0
+314220,Miraí,MG,66.39,0.0
+314225,Miravânia,MG,23.47,0.0
+314230,Moeda,MG,38.22,0.0
+314250,Monjolos,MG,60.58,0.0
+314260,Monsenhor Paulo,MG,74.69,0.0
+314270,Montalvânia,MG,65.43,8.54
+314290,Monte Azul,MG,59.87,5.73
+314300,Monte Belo,MG,62.14,0.0
+314320,Monte Santo de Minas,MG,75.92,0.0
+314330,Montes Claros,MG,83.92,85.43
+314340,Monte Sião,MG,74.18,74.18
+314345,Montezuma,MG,40.21,0.0
+314350,Morada Nova de Minas,MG,74.43,53.39
+314360,Morro da Garça,MG,53.42,0.0
+314380,Munhoz,MG,54.38,0.0
+314400,Mutum,MG,43.26,29.27
+314410,Muzambinho,MG,76.37,0.0
+314420,Nacip Raydan,MG,53.9,0.0
+314430,Nanuque,MG,80.49,61.09
+314435,Naque,MG,86.49,0.0
+314440,Natércia,MG,57.58,43.96
+314450,Nazareno,MG,63.62,0.0
+314465,Ninheira,MG,26.78,0.0
+314480,Nova Lima,MG,92.6,22.64
+314490,Nova Módica,MG,65.05,52.2
+314505,Nova Porteirinha,MG,56.15,22.3
+314510,Nova Resende,MG,56.27,0.0
+314520,Nova Serrana,MG,74.11,73.17
+314530,Novo Cruzeiro,MG,31.22,22.39
+314570,Oliveira Fortes,MG,56.86,0.0
+314580,Onça de Pitangui,MG,48.05,0.0
+314587,Orizânia,MG,29.79,0.0
+314590,Ouro Branco,MG,86.76,85.42
+314620,Ouro Verde de Minas,MG,57.74,52.96
+314630,Padre Paraíso,MG,53.73,0.0
+314640,Paineiras,MG,73.83,0.0
+314655,Pai Pedro,MG,26.45,0.0
+314670,Palma,MG,71.6,0.0
+314675,Palmópolis,MG,76.77,0.0
+314700,Paracatu,MG,80.77,75.15
+314740,Paraopeba,MG,81.19,0.0
+314750,Passabém,MG,60.65,30.64
+314770,Passa Tempo,MG,75.35,0.0
+314780,Passa-Vinte,MG,62.15,0.0
+314795,Patis,MG,37.71,0.0
+314800,Patos de Minas,MG,86.98,85.01
+314820,Patrocínio do Muriaé,MG,80.57,0.0
+314830,Paula Cândido,MG,53.8,0.0
+314840,Paulistas,MG,48.66,0.0
+314860,Peçanha,MG,50.68,0.0
+314870,Pedra Azul,MG,72.42,67.39
+314880,Pedra do Anta,MG,67.94,0.0
+314890,Pedra do Indaiá,MG,52.75,0.0
+314910,Pedralva,MG,49.13,43.5
+314915,Pedras de Maria da Cruz,MG,52.23,11.38
+314920,Pedrinópolis,MG,72.01,0.0
+314930,Pedro Leopoldo,MG,83.33,63.16
+314950,Pequeri,MG,83.47,0.0
+314970,Perdigão,MG,79.77,0.0
+314980,Perdizes,MG,66.7,0.0
+314990,Perdões,MG,83.35,73.65
+314995,Periquito,MG,66.33,0.0
+315015,Piedade de Caratinga,MG,60.44,0.0
+315020,Piedade de Ponte Nova,MG,73.53,0.0
+315030,Piedade do Rio Grande,MG,67.92,0.0
+315040,Piedade dos Gerais,MG,45.25,0.0
+315053,Pingo-d Água,MG,84.95,0.0
+315057,Pintópolis,MG,35.28,0.0
+315070,Pirajuba,MG,70.36,71.48
+315080,Piranga,MG,32.12,0.0
+315090,Piranguçu,MG,34.03,0.0
+315100,Piranguinho,MG,61.18,0.0
+315110,Pirapetinga,MG,74.1,67.57
+315130,Piraúba,MG,72.73,0.0
+315140,Pitangui,MG,82.53,0.0
+315160,Planura,MG,91.96,0.0
+315170,Poço Fundo,MG,53.24,0.0
+315200,Pompéu,MG,78.87,0.0
+315213,Ponto Chique,MG,59.95,0.0
+315220,Porteirinha,MG,52.64,19.44
+315230,Porto Firme,MG,45.69,0.0
+315240,Poté,MG,47.51,38.74
+315250,Pouso Alegre,MG,87.31,87.31
+315270,Prados,MG,69.92,69.18
+315280,Prata,MG,66.78,0.0
+315310,Presidente Bernardes,MG,31.03,27.71
+315320,Presidente Juscelino,MG,50.62,0.0
+315340,Presidente Olegário,MG,70.49,0.0
+315350,Alto Jequitibá,MG,47.42,0.0
+315360,Prudente de Morais,MG,84.81,55.48
+315370,Quartel Geral,MG,77.19,23.4
+315390,Raposos,MG,83.83,70.95
+315420,Resende Costa,MG,73.2,35.19
+315430,Resplendor,MG,58.97,45.24
+315440,Ressaquinha,MG,64.63,0.0
+315445,Riachinho,MG,55.18,0.0
+315450,Riacho dos Machados,MG,49.0,28.63
+315460,Ribeirão das Neves,MG,80.82,71.09
+315470,Ribeirão Vermelho,MG,88.87,0.0
+315490,Rio Casca,MG,71.12,57.03
+315520,Rio Espera,MG,31.98,0.0
+315530,Rio Manso,MG,51.91,0.0
+315540,Rio Novo,MG,74.69,0.0
+315550,Rio Paranaíba,MG,61.85,0.0
+315560,Rio Pardo de Minas,MG,35.4,13.45
+315570,Rio Piracicaba,MG,73.92,0.0
+315580,Rio Pomba,MG,79.15,0.0
+315600,Rio Vermelho,MG,39.18,0.0
+315610,Ritápolis,MG,72.22,0.0
+315630,Rodeiro,MG,76.29,0.0
+315645,Rosário da Limeira,MG,53.27,0.0
+315660,Rubim,MG,64.53,0.0
+315670,Sabará,MG,76.61,63.03
+315700,Salinas,MG,72.86,59.09
+315710,Salto da Divisa,MG,76.65,0.0
+315720,Santa Bárbara,MG,72.71,0.0
+315725,Santa Bárbara do Leste,MG,51.53,0.0
+315730,Santa Bárbara do Tugúrio,MG,47.53,0.0
+315740,Santa Cruz do Escalvado,MG,28.19,0.0
+315750,Santa Efigênia de Minas,MG,58.91,0.0
+315760,Santa Fé de Minas,MG,50.84,0.0
+315770,Santa Juliana,MG,77.85,0.0
+315780,Santa Luzia,MG,76.26,67.98
+315790,Santa Margarida,MG,49.91,0.0
+315800,Santa Maria de Itabira,MG,52.47,0.0
+315820,Santa Maria do Suaçuí,MG,62.29,44.96
+315830,Santana da Vargem,MG,75.37,74.3
+315840,Santana de Cataguases,MG,76.11,0.0
+315850,Santana de Pirapama,MG,43.95,0.0
+315860,Santana do Deserto,MG,36.81,0.0
+315880,Santana do Jacaré,MG,88.12,0.0
+315890,Santana do Manhuaçu,MG,37.41,0.0
+315895,Santana do Paraíso,MG,84.34,84.34
+315900,Santana do Riacho,MG,39.18,0.0
+315920,Santa Rita de Caldas,MG,59.2,49.39
+315935,Santa Rita de Minas,MG,69.19,0.0
+315940,Santa Rita de Ibitipoca,MG,46.92,0.0
+315950,Santa Rita do Itueto,MG,40.71,0.0
+315960,Santa Rita do Sapucaí,MG,82.28,80.75
+315970,Santa Rosa da Serra,MG,61.59,0.0
+315980,Santa Vitória,MG,80.85,0.0
+316000,Santo Antônio do Aventureiro,MG,63.58,0.0
+316010,Santo Antônio do Grama,MG,82.23,0.0
+316020,Santo Antônio do Itambé,MG,30.99,0.0
+316030,Santo Antônio do Jacinto,MG,52.45,0.0
+316040,Santo Antônio do Monte,MG,83.26,80.37
+316045,Santo Antônio do Retiro,MG,22.94,19.9
+316060,Santo Hipólito,MG,64.16,0.0
+316070,Santos Dumont,MG,75.61,52.97
+316080,São Bento Abade,MG,85.86,0.0
+316090,São Brás do Suaçuí,MG,88.12,0.0
+316095,São Domingos das Dores,MG,41.1,0.0
+316100,São Domingos do Prata,MG,55.26,0.0
+316110,São Francisco,MG,57.87,30.8
+316120,São Francisco de Paula,MG,72.6,0.0
+316130,São Francisco de Sales,MG,66.41,0.0
+316150,São Geraldo,MG,56.94,0.0
+316170,São Gonçalo do Abaeté,MG,43.12,40.68
+316180,São Gonçalo do Pará,MG,65.32,0.0
+316200,São Gonçalo do Sapucaí,MG,74.11,0.0
+316210,São Gotardo,MG,90.5,87.01
+316240,São João da Ponte,MG,28.83,8.82
+316245,São João das Missões,MG,17.33,0.0
+316250,São João del Rei,MG,14.19,12.48
+316255,São João do Manhuaçu,MG,44.21,41.2
+316260,São João do Oriente,MG,74.35,0.0
+316270,São João do Paraíso,MG,45.73,27.57
+316280,São João Evangelista,MG,66.32,0.0
+316290,São João Nepomuceno,MG,85.17,67.95
+316292,São Joaquim de Bicas,MG,66.07,27.75
+316294,São José da Barra,MG,70.46,0.0
+316295,São José da Lapa,MG,53.86,53.86
+316300,São José da Safira,MG,59.75,0.0
+316320,São José do Alegre,MG,72.69,0.0
+316340,São José do Goiabal,MG,67.77,0.0
+316350,São José do Jacuri,MG,31.77,25.06
+316360,São José do Mantimento,MG,54.17,0.0
+316380,São Miguel do Anta,MG,54.08,0.0
+316390,São Pedro da União,MG,59.39,0.0
+316400,São Pedro dos Ferros,MG,66.39,0.0
+316410,São Pedro do Suaçuí,MG,44.01,0.0
+316420,São Romão,MG,44.37,16.77
+316430,São Roque de Minas,MG,58.01,53.14
+316443,São Sebastião da Vargem Alegre,MG,56.66,0.0
+316447,São Sebastião do Anta,MG,60.73,0.0
+316450,São Sebastião do Maranhão,MG,28.94,20.18
+316460,São Sebastião do Oeste,MG,53.05,0.0
+316470,São Sebastião do Paraíso,MG,88.06,84.3
+316500,São Tiago,MG,75.33,51.44
+316510,São Tomás de Aquino,MG,73.72,0.0
+316520,São Thomé das Letras,MG,57.59,0.0
+316530,São Vicente de Minas,MG,76.54,0.0
+316540,Sapucaí-Mirim,MG,58.94,51.44
+316550,Sardoá,MG,34.47,0.0
+316553,Sarzedo,MG,90.16,80.83
+316557,Senador Amaral,MG,57.17,0.0
+316590,Senador Modestino Gonçalves,MG,42.85,0.0
+316610,Senhora do Porto,MG,37.14,0.0
+316630,Sericita,MG,52.83,0.0
+316650,Serra Azul de Minas,MG,35.14,25.44
+316660,Serra da Saudade,MG,64.59,60.7
+316670,Serra dos Aimorés,MG,65.6,36.57
+316680,Serra do Salitre,MG,68.37,0.0
+316690,Serrania,MG,81.71,0.0
+316695,Serranópolis de Minas,MG,38.5,0.0
+316710,Serro,MG,50.48,38.64
+316730,Silveirânia,MG,65.9,0.0
+316760,Simonésia,MG,30.93,0.0
+316770,Sobrália,MG,58.31,0.0
+316790,Tabuleiro,MG,69.09,0.0
+316800,Taiobeiras,MG,68.03,42.63
+316810,Tapira,MG,57.98,0.0
+316820,Tapiraí,MG,49.87,0.0
+316830,Taquaraçu de Minas,MG,45.75,23.2
+316840,Tarumirim,MG,53.51,0.0
+316850,Teixeiras,MG,65.28,0.0
+316860,Teófilo Otoni,MG,69.01,61.71
+316870,Timóteo,MG,86.6,86.71
+316880,Tiradentes,MG,63.81,48.06
+316890,Tiros,MG,69.92,0.0
+316910,Toledo,MG,37.37,0.0
+316930,Três Corações,MG,81.17,77.96
+316935,Três Marias,MG,84.27,64.48
+316950,Tumiritinga,MG,61.5,0.0
+316970,Turmalina,MG,69.76,59.22
+316980,Turvolândia,MG,61.56,0.0
+316990,Ubá,MG,81.5,73.17
+317000,Ubaí,MG,35.87,0.0
+317005,Ubaporanga,MG,45.64,0.0
+317043,União de Minas,MG,52.08,52.99
+317050,Urucânia,MG,72.02,0.0
+317052,Urucuia,MG,38.72,0.0
+317057,Vargem Alegre,MG,70.33,0.0
+317060,Vargem Bonita,MG,54.41,0.0
+317065,Vargem Grande do Rio Pardo,MG,51.02,0.0
+317070,Varginha,MG,92.05,90.66
+317075,Varjão de Minas,MG,79.64,0.0
+317080,Várzea da Palma,MG,78.02,24.52
+317090,Varzelândia,MG,47.63,7.7
+317100,Vazante,MG,76.59,68.69
+317103,Verdelândia,MG,52.59,0.0
+317110,Veríssimo,MG,55.92,0.0
+317120,Vespasiano,MG,84.31,79.81
+317140,Vieiras,MG,50.9,0.0
+317150,Mathias Lobato,MG,75.1,0.0
+317160,Virgem da Lapa,MG,51.37,0.0
+317180,Virginópolis,MG,60.6,0.0
+317190,Virgolândia,MG,63.64,0.0
+317200,Visconde do Rio Branco,MG,75.47,69.87
+317210,Volta Grande,MG,62.96,0.0
+317220,Wenceslau Braz,MG,44.16,0.0
+310390,Araújos,MG,86.41,82.95
+310800,Bom Sucesso,MG,99.95,82.22
+314610,Ouro Preto,MG,87.13,55.5
+314710,Pará de Minas,MG,100.0,99.42
+314720,Paraguaçu,MG,82.39,82.39
+315990,Santo Antônio do Amparo,MG,87.56,87.56
+313670,Juiz de Fora,MG,95.96,94.67
+310030,Abre Campo,MG,69.64,69.64
+310040,Acaiaca,MG,98.12,63.9
+310050,Açucena,MG,,47.46
+310070,Água Comprida,MG,,99.95
+310080,Aguanil,MG,63.64,58.15
+310110,Aimorés,MG,100.0,91.15
+310120,Aiuruoca,MG,52.75,52.75
+310163,Alfredo Vasconcelos,MG,,66.35
+310180,Alpercata,MG,,78.79
+310200,Alterosa,MG,,100.0
+310205,Alto Caparaó,MG,74.57,74.57
+310210,Alto Rio Doce,MG,,50.29
+310220,Alvarenga,MG,,60.8
+310230,Alvinópolis,MG,,100.0
+310240,Alvorada de Minas,MG,,41.61
+310260,Andradas,MG,,75.01
+310280,Andrelândia,MG,,100.0
+310290,Antônio Carlos,MG,,96.46
+310330,Aracitaba,MG,,79.72
+310350,Araguari,MG,100.0,100.0
+310360,Arantina,MG,,93.27
+310370,Araponga,MG,,37.79
+310375,Araporã,MG,100.0,100.0
+310380,Arapuá,MG,75.11,75.11
+310420,Arcos,MG,,100.0
+310440,Argirita,MG,87.95,87.95
+310450,Arinos,MG,,100.0
+310460,Astolfo Dutra,MG,,90.54
+310480,Augusto de Lima,MG,,6.83
+310490,Baependi,MG,,79.4
+310500,Baldim,MG,,100.0
+310510,Bambuí,MG,,85.0
+310530,Bandeira do Sul,MG,100.0,100.0
+310540,Barão de Cocais,MG,,100.0
+310560,Barbacena,MG,61.18,55.18
+310590,Barroso,MG,,96.08
+310600,Bela Vista de Minas,MG,,93.68
+310610,Belmiro Braga,MG,,32.29
+310630,Belo Oriente,MG,,85.11
+310640,Belo Vale,MG,,99.91
+310680,Bias Fortes,MG,93.11,93.11
+310710,Boa Esperança,MG,84.43,83.58
+310720,Bocaina de Minas,MG,78.62,77.63
+310730,Bocaiúva,MG,91.61,81.43
+310760,Bom Jesus da Penha,MG,,100.0
+310770,Bom Jesus do Amparo,MG,,43.53
+310820,Bonfinópolis de Minas,MG,,72.47
+310870,Brás Pires,MG,48.65,0.0
+310890,Brazópolis,MG,,83.54
+310925,Bugre,MG,,100.0
+310940,Buritizeiro,MG,99.99,0.0
+310945,Cabeceira Grande,MG,100.0,0.0
+310960,Cachoeira da Prata,MG,95.7,95.22
+310970,Cachoeira de Minas,MG,,87.05
+310980,Cachoeira Dourada,MG,88.82,88.24
+310990,Caetanópolis,MG,,67.59
+311000,Caeté,MG,97.82,89.51
+311010,Caiana,MG,,100.0
+311020,Cajuri,MG,,53.52
+311060,Cambuí,MG,100.0,100.0
+311100,Campestre,MG,,52.98
+311115,Campo Azul,MG,,72.82
+311120,Campo Belo,MG,96.15,94.95
+311130,Campo do Meio,MG,90.06,87.65
+311150,Campos Altos,MG,,100.0
+311160,Campos Gerais,MG,,100.0
+311170,Canaã,MG,,100.0
+311180,Canápolis,MG,,89.58
+311190,Cana Verde,MG,,72.78
+311210,Caparaó,MG,,38.51
+311220,Capela Nova,MG,,41.16
+311240,Capetinga,MG,,100.0
+311260,Capinópolis,MG,,92.06
+311265,Capitão Andrade,MG,74.01,74.01
+311280,Capitólio,MG,,79.45
+311290,Caputira,MG,,50.44
+311310,Caranaíba,MG,71.4,30.03
+311320,Carandaí,MG,,100.0
+311330,Carangola,MG,75.73,58.5
+311360,Careaçu,MG,,100.0
+311380,Carmésia,MG,73.31,53.31
+311400,Carmo da Mata,MG,96.51,85.27
+311410,Carmo de Minas,MG,100.0,74.1
+311420,Carmo do Cajuru,MG,93.69,73.1
+311450,Carmópolis de Minas,MG,100.0,100.0
+311460,Carrancas,MG,68.63,0.0
+311470,Carvalhópolis,MG,,73.24
+311490,Casa Grande,MG,100.0,0.0
+311500,Cascalho Rico,MG,,33.78
+311510,Cássia,MG,,99.99
+311535,Catas Altas,MG,87.94,74.62
+311540,Catas Altas da Noruega,MG,41.28,0.0
+311560,Cedro do Abaeté,MG,,60.17
+311570,Central de Minas,MG,82.6,82.6
+311590,Chácara,MG,,71.52
+311600,Chalé,MG,57.07,57.07
+311630,Cipotânea,MG,,100.0
+311640,Claraval,MG,99.59,30.78
+311690,Comendador Gomes,MG,,50.74
+311710,Conceição da Aparecida,MG,,62.95
+311720,Conceição das Pedras,MG,99.96,100.0
+311730,Conceição das Alagoas,MG,98.86,97.73
+311740,Conceição de Ipanema,MG,100.0,100.0
+311780,Conceição dos Ouros,MG,,78.2
+311840,Conselheiro Pena,MG,100.0,100.0
+311850,Consolação,MG,54.98,54.98
+311870,Coqueiral,MG,83.36,79.4
+311900,Cordislândia,MG,,80.17
+311920,Coroaci,MG,,56.37
+311930,Coromandel,MG,,71.54
+311960,Coronel Pacheco,MG,71.79,71.79
+311970,Coronel Xavier Chaves,MG,,54.32
+311980,Córrego Danta,MG,,96.28
+311990,Córrego do Bom Jesus,MG,96.2,26.49
+311995,Córrego Fundo,MG,88.08,63.44
+312000,Córrego Novo,MG,,100.0
+312020,Cristais,MG,,99.54
+312050,Cristina,MG,99.89,98.91
+312060,Crucilândia,MG,,62.62
+312070,Cruzeiro da Fortaleza,MG,,100.0
+312083,Cuparaque,MG,,100.0
+312087,Curral de Dentro,MG,,63.56
+312100,Datas,MG,40.12,71.77
+312110,Delfim Moreira,MG,37.47,37.47
+312125,Delta,MG,95.73,91.77
+312130,Descoberto,MG,,85.35
+312140,Desterro de Entre Rios,MG,59.52,52.7
+312170,Diogo de Vasconcelos,MG,87.99,41.84
+312180,Dionísio,MG,,81.98
+312190,Divinésia,MG,,87.46
+312210,Divino das Laranjeiras,MG,,79.49
+312220,Divinolândia de Minas,MG,94.06,66.62
+312240,Divisa Nova,MG,,80.84
+312247,Dom Bosco,MG,85.28,33.01
+312250,Dom Cavati,MG,,89.27
+312260,Dom Joaquim,MG,,38.32
+312270,Dom Silvério,MG,,99.48
+312280,Dom Viçoso,MG,99.93,70.35
+312290,Dona Eusébia,MG,,99.68
+312300,Dores de Campos,MG,100.0,90.94
+312310,Dores de Guanhães,MG,99.24,0.0
+312330,Dores do Turvo,MG,,80.75
+312350,Douradoquara,MG,99.84,99.84
+312352,Durandé,MG,,61.53
+312360,Elói Mendes,MG,78.71,78.71
+312370,Engenheiro Caldas,MG,,44.37
+312390,Entre Rios de Minas,MG,,67.94
+312420,Espera Feliz,MG,,100.0
+312440,Espírito Santo do Dourado,MG,99.62,99.62
+312450,Estiva,MG,,70.16
+312460,Estrela Dalva,MG,,76.43
+312500,Ewbank da Câmara,MG,95.42,0.0
+312580,Fernandes Tourinho,MG,,65.71
+312590,Ferros,MG,,19.9
+312595,Fervedouro,MG,46.04,46.04
+312600,Florestal,MG,,67.09
+312610,Formiga,MG,98.0,91.75
+312630,Fortaleza de Minas,MG,,72.0
+312650,Francisco Badaró,MG,,15.03
+312670,Francisco Sá,MG,60.18,52.8
+312675,Franciscópolis,MG,,41.35
+312733,Gameleiras,MG,92.76,0.0
+312737,Goiabeira,MG,82.86,74.19
+312738,Goianá,MG,,87.19
+312750,Gonzaga,MG,72.77,61.45
+312760,Gouveia,MG,,67.73
+312770,Governador Valadares,MG,99.34,96.85
+312800,Guanhães,MG,80.74,80.74
+312810,Guapé,MG,100.0,100.0
+312830,Guaranésia,MG,,94.09
+312840,Guarani,MG,79.11,79.11
+312880,Guidoval,MG,,56.65
+312900,Guiricema,MG,,48.53
+312910,Gurinhatã,MG,,100.0
+312920,Heliodora,MG,,75.15
+312930,Iapu,MG,,70.49
+312940,Ibertioga,MG,,76.66
+312950,Ibiá,MG,91.67,86.88
+312990,Ibitiúra de Minas,MG,,69.97
+313000,Ibituruna,MG,86.71,86.71
+313020,Igaratinga,MG,,81.82
+313030,Iguatama,MG,88.61,72.71
+313040,Ijaci,MG,100.0,100.0
+313050,Ilicínea,MG,,99.82
+313055,Imbé de Minas,MG,,78.84
+313060,Inconfidentes,MG,,54.15
+313070,Indianópolis,MG,,64.63
+313080,Ingaí,MG,,61.8
+313100,Inhaúma,MG,100.0,24.18
+313115,Ipaba,MG,,89.87
+313120,Ipanema,MG,78.15,76.59
+313160,Iraí de Minas,MG,,100.0
+313170,Itabira,MG,96.9,92.26
+313190,Itabirito,MG,97.99,85.41
+313220,Itaguara,MG,99.96,99.93
+313280,Itambé do Mato Dentro,MG,46.75,46.75
+313310,Itanhandu,MG,99.43,99.43
+313320,Itanhomi,MG,,99.88
+313340,Itapagipe,MG,,84.89
+313375,Itaú de Minas,MG,,100.0
+313380,Itaúna,MG,99.85,95.59
+313410,Itueta,MG,,56.17
+313420,Ituiutaba,MG,95.84,95.84
+313430,Itumirim,MG,,74.76
+313450,Itutinga,MG,,67.99
+313480,Jacuí,MG,,62.31
+313500,Jaguaraçu,MG,71.03,71.03
+313530,Japaraíba,MG,100.0,64.74
+313540,Jeceaba,MG,99.98,64.13
+313550,Jequeri,MG,56.76,56.76
+313570,Jequitibá,MG,,44.8
+313590,Jesuânia,MG,64.98,64.98
+313610,Joanésia,MG,54.77,38.02
+313620,João Monlevade,MG,100.0,100.0
+313640,Joaquim Felício,MG,,20.37
+313655,José Raydan,MG,,57.11
+313660,Nova União,MG,,60.46
+313690,Juruaia,MG,,48.87
+313710,Lagamar,MG,,76.7
+313720,Lagoa da Prata,MG,82.7,81.83
+313740,Lagoa Dourada,MG,,85.9
+313750,Lagoa Formosa,MG,100.0,100.0
+313753,Lagoa Grande,MG,,73.47
+313770,Lajinha,MG,62.47,49.6
+313780,Lambari,MG,78.08,75.95
+313790,Lamim,MG,100.0,0.0
+313800,Laranjal,MG,,100.0
+313810,Lassance,MG,100.0,0.0
+313840,Leopoldina,MG,,99.13
+313860,Lima Duarte,MG,93.52,92.56
+313867,Luisburgo,MG,29.44,29.44
+313870,Luminárias,MG,77.0,76.93
+313880,Luz,MG,,99.78
+313890,Machacalis,MG,,99.97
+313900,Machado,MG,99.37,99.37
+313910,Madre de Deus de Minas,MG,,85.99
+313925,Mamonas,MG,55.25,6.38
+313940,Manhuaçu,MG,100.0,100.0
+313950,Manhumirim,MG,78.18,76.37
+313960,Mantena,MG,98.05,98.05
+313970,Maravilhas,MG,,68.35
+313980,Mar de Espanha,MG,,92.01
+313990,Maria da Fé,MG,,53.86
+314000,Mariana,MG,100.0,100.0
+314020,Maripá de Minas,MG,,70.0
+314030,Marliéria,MG,100.0,70.97
+314040,Marmelópolis,MG,99.44,70.34
+314060,Materlândia,MG,,68.63
+314080,Matias Barbosa,MG,,96.53
+314090,Matipó,MG,,72.53
+314100,Mato Verde,MG,,66.67
+314120,Matutina,MG,,89.98
+314130,Medeiros,MG,,100.0
+314160,Mercês,MG,,100.0
+314170,Mesquita,MG,79.92,68.32
+314190,Minduri,MG,,90.98
+314220,Miraí,MG,,95.38
+314240,Moema,MG,91.08,79.46
+314260,Monsenhor Paulo,MG,,75.15
+314280,Monte Alegre de Minas,MG,73.85,73.15
+314300,Monte Belo,MG,,4.57
+314310,Monte Carmelo,MG,100.0,84.11
+314320,Monte Santo de Minas,MG,,73.99
+314345,Montezuma,MG,,30.79
+314360,Morro da Garça,MG,,57.23
+314370,Morro do Pilar,MG,75.94,0.0
+314390,Muriaé,MG,92.52,92.52
+314410,Muzambinho,MG,,92.58
+314435,Naque,MG,,77.14
+314450,Nazareno,MG,,76.18
+314460,Nepomuceno,MG,100.0,100.0
+314470,Nova Era,MG,94.0,94.0
+314500,Nova Ponte,MG,85.78,85.78
+314520,Nova Serrana,MG,3.53,0.39
+314540,Olaria,MG,100.0,100.0
+314550,Olímpio Noronha,MG,88.79,88.79
+314560,Oliveira,MG,100.0,100.0
+314570,Oliveira Fortes,MG,,99.86
+314580,Onça de Pitangui,MG,,56.58
+314600,Ouro Fino,MG,100.0,100.0
+314630,Padre Paraíso,MG,,49.15
+314650,Pains,MG,99.65,85.3
+314660,Paiva,MG,100.0,0.0
+314690,Papagaios,MG,100.0,84.09
+314730,Paraisópolis,MG,99.31,98.35
+314740,Paraopeba,MG,,87.31
+314760,Passa Quatro,MG,76.91,100.0
+314770,Passa Tempo,MG,,77.9
+314790,Passos,MG,94.87,93.8
+314810,Patrocínio,MG,100.0,100.0
+314830,Paula Cândido,MG,,57.31
+314860,Peçanha,MG,,57.03
+314880,Pedra do Anta,MG,,65.14
+314890,Pedra do Indaiá,MG,,50.29
+314900,Pedra Dourada,MG,59.4,59.4
+314920,Pedrinópolis,MG,,89.35
+314940,Pedro Teixeira,MG,66.52,66.52
+314960,Pequi,MG,100.0,57.66
+314970,Perdigão,MG,,98.38
+314980,Perdizes,MG,,100.0
+314995,Periquito,MG,,100.0
+315050,Pimenta,MG,98.68,87.21
+315053,Pingo-d Água,MG,,99.42
+315057,Pintópolis,MG,,100.0
+315060,Piracema,MG,61.07,42.28
+315080,Piranga,MG,,30.04
+315090,Piranguçu,MG,,63.5
+315100,Piranguinho,MG,,61.79
+315120,Pirapora,MG,97.15,46.29
+315130,Piraúba,MG,,93.48
+315150,Piumhi,MG,89.59,89.59
+315160,Planura,MG,,97.23
+315180,Poços de Caldas,MG,100.0,100.0
+315190,Pocrane,MG,74.81,61.53
+315200,Pompéu,MG,,84.9
+315210,Ponte Nova,MG,100.0,100.0
+315213,Ponto Chique,MG,,98.4
+315280,Prata,MG,,78.15
+315290,Pratápolis,MG,87.92,79.94
+315300,Pratinha,MG,57.41,57.41
+315320,Presidente Juscelino,MG,,48.43
+315330,Presidente Kubitschek,MG,68.93,68.83
+315340,Presidente Olegário,MG,,67.07
+315350,Alto Jequitibá,MG,,100.0
+315380,Queluzito,MG,97.38,51.08
+315400,Raul Soares,MG,93.72,74.28
+315410,Recreio,MG,99.96,88.06
+315415,Reduto,MG,97.97,66.46
+315470,Ribeirão Vermelho,MG,,92.29
+315480,Rio Acima,MG,99.01,86.53
+315500,Rio Doce,MG,98.63,98.63
+315540,Rio Novo,MG,,98.81
+315570,Rio Piracicaba,MG,,98.43
+315580,Rio Pomba,MG,,87.27
+315590,Rio Preto,MG,91.02,0.0
+315600,Rio Vermelho,MG,,47.72
+315620,Rochedo de Minas,MG,89.94,89.94
+315630,Rodeiro,MG,,98.18
+315645,Rosário da Limeira,MG,,65.19
+315660,Rubim,MG,,74.98
+315680,Sabinópolis,MG,64.55,44.44
+315690,Sacramento,MG,100.0,100.0
+315720,Santa Bárbara,MG,,92.08
+315733,Santa Cruz de Minas,MG,100.0,100.0
+315740,Santa Cruz do Escalvado,MG,,57.53
+315770,Santa Juliana,MG,,100.0
+315790,Santa Margarida,MG,,48.8
+315800,Santa Maria de Itabira,MG,,81.29
+315840,Santana de Cataguases,MG,,80.53
+315850,Santana de Pirapama,MG,,37.3
+315870,Santana do Garambéu,MG,100.0,73.94
+315880,Santana do Jacaré,MG,,95.3
+315890,Santana do Manhuaçu,MG,,61.11
+315900,Santana do Riacho,MG,64.84,0.0
+315910,Santana dos Montes,MG,82.6,74.61
+315980,Santa Vitória,MG,,98.66
+316010,Santo Antônio do Grama,MG,,98.42
+316030,Santo Antônio do Jacinto,MG,,100.0
+316080,São Bento Abade,MG,,97.67
+316100,São Domingos do Prata,MG,,60.86
+316120,São Francisco de Paula,MG,,71.91
+316130,São Francisco de Sales,MG,,99.86
+316140,São Francisco do Glória,MG,60.49,36.95
+316150,São Geraldo,MG,,70.83
+316160,São Geraldo da Piedade,MG,31.09,31.09
+316165,São Geraldo do Baixio,MG,69.44,65.79
+316180,São Gonçalo do Pará,MG,,93.42
+316190,São Gonçalo do Rio Abaixo,MG,100.0,100.0
+316200,São Gonçalo do Sapucaí,MG,,78.14
+316220,São João Batista do Glória,MG,81.22,80.02
+316225,São João da Lagoa,MG,99.41,0.0
+316230,São João da Mata,MG,98.43,98.47
+316250,São João del Rei,MG,85.8,94.54
+316257,São João do Manteninha,MG,56.0,56.0
+316265,São João do Pacuí,MG,98.73,0.0
+316280,São João Evangelista,MG,,67.29
+316294,São José da Barra,MG,,96.32
+316300,São José da Safira,MG,,74.57
+316310,São José da Varginha,MG,100.0,33.55
+316320,São José do Alegre,MG,,72.38
+316340,São José do Goiabal,MG,,65.46
+316360,São José do Mantimento,MG,,55.9
+316370,São Lourenço,MG,100.0,92.5
+316390,São Pedro da União,MG,,96.43
+316410,São Pedro do Suaçuí,MG,,41.34
+316443,São Sebastião da Vargem Alegre,MG,,52.88
+316460,São Sebastião do Oeste,MG,,59.28
+316480,São Sebastião do Rio Preto,MG,55.48,0.0
+316490,São Sebastião do Rio Verde,MG,100.0,100.0
+316510,São Tomás de Aquino,MG,,79.28
+316530,São Vicente de Minas,MG,,100.0
+316550,Sardoá,MG,,35.82
+316557,Senador Amaral,MG,,100.0
+316560,Senador Cortes,MG,76.06,71.11
+316570,Senador Firmino,MG,100.0,58.39
+316580,Senador José Bento,MG,36.57,36.57
+316590,Senador Modestino Gonçalves,MG,,98.62
+316600,Senhora de Oliveira,MG,57.29,57.29
+316620,Senhora dos Remédios,MG,66.35,44.84
+316640,Seritinga,MG,85.08,85.08
+316680,Serra do Salitre,MG,,98.57
+316690,Serrania,MG,,86.74
+316720,Sete Lagoas,MG,99.53,96.43
+316730,Silveirânia,MG,,100.0
+316740,Silvianópolis,MG,60.23,60.23
+316750,Simão Pereira,MG,99.89,99.77
+316760,Simonésia,MG,,99.51
+316770,Sobrália,MG,,78.87
+316780,Soledade de Minas,MG,66.25,66.25
+316790,Tabuleiro,MG,,94.55
+316805,Taparuba,MG,44.78,44.78
+316820,Tapiraí,MG,,57.95
+316840,Tarumirim,MG,,56.11
+316890,Tiros,MG,,69.73
+316900,Tocantins,MG,100.0,100.0
+316905,Tocos do Moji,MG,60.72,0.0
+316920,Tombos,MG,82.09,82.09
+316940,Três Pontas,MG,100.0,99.6
+316950,Tumiritinga,MG,,46.02
+316960,Tupaciguara,MG,99.95,99.95
+317005,Ubaporanga,MG,,53.38
+317010,Uberaba,MG,99.8,98.5
+317020,Uberlândia,MG,100.0,98.24
+317040,Unaí,MG,83.96,72.39
+317047,Uruana de Minas,MG,76.78,76.78
+317050,Urucânia,MG,,100.0
+317052,Urucuia,MG,,7.1
+317060,Vargem Bonita,MG,,100.0
+317110,Veríssimo,MG,,93.64
+317115,Vermelho Novo,MG,39.45,39.39
+317130,Viçosa,MG,96.0,83.0
+317140,Vieiras,MG,,89.64
+317160,Virgem da Lapa,MG,,47.44
+317180,Virginópolis,MG,,96.97
+317210,Volta Grande,MG,,98.67

@@ -1,0 +1,41 @@
+cnpj,sigla_compania,nome_compania,estados_atendidos,macro
+05914254000139,CAERD,Companhia de Águas e Esgotos do Estado de Rondônia,RO,TRUE
+02405085000113,DEPASA,Departamento Estadual de Pavimentação e Saneamento,AC,TRUE
+04406195000125,COSAMA,Companhia de Saneamento do Amazonas,AM,TRUE
+25089509000183,SANEATINS,Companhia de Saneamento do Tocantins,PA-TO,TRUE
+76484013000145,SANEPAR,Companhia de Saneamento do Paraná S.A,PR-SC,TRUE
+82508433000117,CASAN,Companhia Catarinense de Águas e Saneamento,SC-PR,TRUE
+05939467000115,CAER,Companhia de Águas e Esgotos de Roraima,RR,TRUE
+04945341000190,COSANPA,Companhia de Saneamento do Pará,PA,TRUE
+05976311000104,CAESA,Companhia de Água e Esgoto do Amapá,AP,TRUE
+11996434000100,ATS,Agência Tocantinense de Saneamento,TO,TRUE
+06274757000150,CAEMA,Companhia de Saneamento Ambiental do Maranhão,MA,TRUE
+06845747000127,AGESPISA,Águas e Esgotos do Piauí S/A,PI,TRUE
+07040108000157,CAGECE,Companhia de Água e Esgoto do Ceará,CE,TRUE
+08334385000135,CAERN,Companhia de Águas e Esgotos do Rio Grande do Norte,RN,TRUE
+09123654000187,CAGEPA,Companhia de Águas e Esgotos da Paraíba,PB,TRUE
+09769035000164,COMPESA,Companhia Pernambucana de Saneamento,PE,TRUE
+12294708000181,CASAL,Companhia de Saneamento de Alagoas,AL,TRUE
+13018171007011,DESO,Companhia de Saneamento de Sergipe,SE,TRUE
+13504675000110,EMBASA,Empresa Baiana de Águas e Saneamento S.A.,BA,TRUE
+17281106000103,COPASA,Companhia de Saneamento de Minas Gerais ,MG,TRUE
+09104426000160,COPANOR,COPASA Serviços de Saneamento Integrado do Norte e Nordeste de Minas Gerais S/A ,MG,TRUE
+28151363000147,CESAN,Companhia Espírito-santense de Saneamento,ES,TRUE
+33352394000104,CEDAE,Companhia Estadual de Águas e Esgotos do Rio de Janeiro,RJ,TRUE
+43776517000180,SABESP,Companhia de Saneamento Básico do Estado de São Paulo,SP,TRUE
+92802784000190,CORSAN,Companhia Riograndense de Saneamento,RS,TRUE
+03982931000120,SANESUL,Empresa de Saneamento de Mato Grosso do Sul S/A,MS,TRUE
+01616929000102,SANEAGO,Saneamento de Goiás S/A,GO,TRUE
+00082024000137,CAESB,Companhia de Saneamento Ambiental do Distrito Federal,DF,TRUE
+04911091000178,HFAO,Hidro Forte Administração e Operação Ltda,PA-TO,FALSE
+27780220000131,SAAE,Serviço Autônomo de Água e Esgoto,ES,FALSE
+09431139000120,CAJ,Concessionária Águas de Juturnaíba,RJ,FALSE
+02382073000110,PROLAGOS,Prolagos S/A - Concessionaria de Servicos Publicos de Agua e Esgoto,RJ,FALSE
+84591890000143,SIMAE,Servico Intermunicipal de Agua e Esgoto,SC,FALSE
+82782079000114,SIMAE,Servico Intermunicipal de Agua e Esgoto,SC,FALSE
+04234130000140,SETAE,Servicos de Tratamento de Agua e Esgoto LTDA,MT,FALSE
+16876276000178,NULL,BRK Ambiental Araguaia Saneamento S.A,PA,FALSE
+39580673000101,NULL,BRK Ambiental - Região Metropolitana de Maceió S.A.,AL,FALSE
+42310775000103,NULL,Aguas do Rio 1 Spe S.a,RJ,FALSE
+42644220000106,NULL,Aguas do Rio 4 Spe S.a,RJ,FALSE
+
