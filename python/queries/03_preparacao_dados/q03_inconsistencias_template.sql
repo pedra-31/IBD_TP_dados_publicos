@@ -1,0 +1,3 @@
+SELECT
+    'TODO: ajuste esta consulta para identificar valores fora de dominio.' AS instrucao;
+

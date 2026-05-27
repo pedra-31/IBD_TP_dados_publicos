@@ -1,0 +1,3 @@
+SELECT
+    'TODO: substitua por comandos UPDATE/CREATE VIEW para padronizacao.' AS instrucao;
+
