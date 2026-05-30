@@ -2,13 +2,13 @@
 INSERT INTO Municipio (
     cod_munip,
     nome_munip,
-    pop_munip
+    pop_munip,
     tipo_servico_recebido
 )
 SELECT
     cod_munip::INT,
     nome_munip,
-    NULLIF(REPLACE(pop_munip, '.', ''), '')::INT
+    NULLIF(REPLACE(pop_munip, '.', ''), '')::INT,
     tipo_servico_recebido
 FROM raw_saneamento_minas_municipios;
 
