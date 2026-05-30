@@ -10,7 +10,13 @@ CREATE TABLE IF NOT EXISTS Municipio (
     cod_munip INT PRIMARY KEY,
     nome_munip VARCHAR(150) NOT NULL,
     pop_munip INT,
-    tipo_servico_recebido VARCHAR(100)
+    tipo_servico_recebido VARCHAR(100),
+    cod_prestador INT NOT NULL,
+
+    CONSTRAINT fk_prestador_municipio
+        FOREIGN KEY (cod_prestador)
+        REFERENCES Prestador (cod_prestador)
+        ON DELETE CASCADE
 );
 
 -- 1 : 1 Municipio e Fato_Saneamento, mas facilita a leitura/entendimento do modelo

@@ -1,15 +1,33 @@
+-- Inserindo os dados de raw_saneamento_minas_municipios em Prestador
+INSERT INTO Prestador (
+    cod_prestador,
+    nome_prestador,
+    sigla_prestador,
+    abrangencia_prestador,
+    tipo_prestador
+)
+SELECT DISTINCT
+    cod_prestador::INT,
+    nome_prestador,
+    sigla_prestador,
+    abrangencia_prestador,
+    tipo_prestador
+FROM raw_saneamento_minas_municipios;
+
 -- Inserindo os dados de raw_saneamento_minas_municipios em Municipio
 INSERT INTO Municipio (
     cod_munip,
     nome_munip,
     pop_munip,
-    tipo_servico_recebido
+    tipo_servico_recebido,
+    cod_prestador
 )
 SELECT
     cod_munip::INT,
     nome_munip,
     NULLIF(REPLACE(pop_munip, '.', ''), '')::INT,
-    tipo_servico_recebido
+    tipo_servico_recebido,
+    cod_prestador::INT
 FROM raw_saneamento_minas_municipios;
 
 -- Inserindo os dados de raw_saneamento_minas_municipios em Fato_Saneamento
@@ -46,22 +64,6 @@ SELECT
     NULLIF(REPLACE(amostra_turbidez_irregular, '.', ''), '')::INT,
     NULLIF(REPLACE(amostra_coliformes, '.', ''), '')::INT,
     NULLIF(REPLACE(amostra_coliformes_irregular, '.', ''), '')::INT
-FROM raw_saneamento_minas_municipios;
-
--- Inserindo os dados de raw_saneamento_minas_municipios em Prestador
-INSERT INTO Prestador (
-    cod_prestador,
-    nome_prestador,
-    sigla_prestador,
-    abrangencia_prestador,
-    tipo_prestador
-)
-SELECT DISTINCT
-    cod_prestador::INT,
-    nome_prestador,
-    sigla_prestador,
-    abrangencia_prestador,
-    tipo_prestador
 FROM raw_saneamento_minas_municipios;
 
 -- Inserindo os nomes das doencas em Doenca
