@@ -13,9 +13,9 @@ services:
     ports:
       - "5432:5432"
     volumes:
-      - IBD_postgres_data:/var/lib/postgresql/data
-      - ./sql:/docker-entrypoint-initdb.d:ro
-      - ./csv/imports:/imports:ro
+    #   - IBD_postgres_data:/var/lib/postgresql/data
+    - ./sql:/docker-entrypoint-initdb.d:ro
+    - ./csv/imports:/imports:ro
     networks:
       - bridge
     healthcheck:
@@ -36,5 +36,5 @@ services:
       - bridge
     ports:
       - "8050:8050"
-volumes:
-  IBD_postgres_data:
+# volumes:
+#   IBD_postgres_data:

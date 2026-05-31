@@ -105,4 +105,6 @@ FROM (
     FROM raw_fato_doencas_unificado_2021
 ) src
 JOIN Doenca d
-  ON d.nome_doenca = src.nome_doenca;
+  ON d.nome_doenca = src.nome_doenca
+JOIN Municipio m
+  ON m.cod_munip = src.cod_munip;
