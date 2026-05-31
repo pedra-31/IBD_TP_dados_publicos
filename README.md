@@ -20,7 +20,7 @@ Este repositório segue a ideia de manter os dados originais intactos e criar ca
 1. Com o docker desktop rodando, subir o ambiente Docker
 
 ```bash
-docker compose up --build
+docker compose up
 ```
 
 2. Executar as consultas do trabalho em python
