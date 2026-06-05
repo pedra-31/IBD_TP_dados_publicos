@@ -10,6 +10,7 @@ CREATE TABLE IF NOT EXISTS Municipio (
     cod_munip INT PRIMARY KEY,
     nome_munip VARCHAR(150) NOT NULL,
     pop_munip INT,
+    mortalidade_saneamento INT,
     tipo_servico_recebido VARCHAR(100),
     cod_prestador INT NOT NULL,
 

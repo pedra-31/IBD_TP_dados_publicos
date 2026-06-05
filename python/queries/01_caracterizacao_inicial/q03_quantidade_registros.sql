@@ -12,6 +12,6 @@ FROM (
     UNION ALL
     SELECT 'raw_saneamento_minas_municipios' AS nome_tabela, COUNT(*) AS total_linhas FROM raw_saneamento_minas_municipios
     UNION ALL
-    SELECT 'raw_fato_doencas_unificado_2021' AS nome_tabela, COUNT(*) AS total_linhas FROM raw_fato_doencas_unificado_2021
+    SELECT 'raw_fato_doencas_2021' AS nome_tabela, COUNT(*) AS total_linhas FROM raw_fato_doencas_2021
 ) contagens
 ORDER BY total_linhas DESC, nome_tabela;

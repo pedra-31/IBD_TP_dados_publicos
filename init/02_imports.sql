@@ -69,7 +69,6 @@ FROM raw_saneamento_minas_municipios;
 -- Inserindo os nomes das doencas em Doenca
 INSERT INTO Doenca (nome_doenca) VALUES ('esquistossomose');
 INSERT INTO Doenca (nome_doenca) VALUES ('leptospirose');
-INSERT INTO Doenca (nome_doenca) VALUES ('colera');
 
 -- Inserindo os dados em Doenca_Municipio
 INSERT INTO Doenca_Municipio (
@@ -86,7 +85,7 @@ FROM (
         'esquistossomose'::TEXT AS nome_doenca,
         codigo_ibge::INT AS cod_munip,
         COALESCE(NULLIF(REPLACE(total_casos_esquistossomose, ',', '.'), ''), '0')::NUMERIC::INT AS total_casos
-    FROM raw_fato_doencas_unificado_2021
+    FROM raw_fato_doencas_2021
 
     UNION ALL
 
@@ -94,17 +93,20 @@ FROM (
         'leptospirose'::TEXT AS nome_doenca,
         codigo_ibge::INT AS cod_munip,
         COALESCE(NULLIF(REPLACE(total_casos_leptospirose, ',', '.'), ''), '0')::NUMERIC::INT AS total_casos
-    FROM raw_fato_doencas_unificado_2021
-
-    UNION ALL
-
-    SELECT
-        'colera'::TEXT AS nome_doenca,
-        codigo_ibge::INT AS cod_munip,
-        COALESCE(NULLIF(REPLACE(total_casos_colera, ',', '.'), ''), '0')::NUMERIC::INT AS total_casos
-    FROM raw_fato_doencas_unificado_2021
+    FROM raw_fato_doencas_2021
 ) src
 JOIN Doenca d
   ON d.nome_doenca = src.nome_doenca
 JOIN Municipio m
   ON m.cod_munip = src.cod_munip;
+
+-- Inserindo os dados de mortalidade em municipio
+UPDATE Municipio
+SET mortalidade_saneamento = src.total_mortes_baixo_saneamento
+FROM (
+    SELECT
+        codigo_ibge::INT AS cod_munip,
+        COALESCE(NULLIF(REPLACE(total_mortes_baixo_saneamento, ',', '.'), ''), '0')::NUMERIC::INT AS total_mortes_baixo_saneamento
+    FROM raw_fato_doencas_2021
+) src
+WHERE Municipio.cod_munip = src.cod_munip;

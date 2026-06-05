@@ -1,20 +1,20 @@
 -- Carga bruta dos CSVs na primeira inicializacao do Postgres (docker-entrypoint-initdb.d)
 
 -- 1) Doencas (arquivo com cabecalho na primeira linha)
-CREATE TABLE IF NOT EXISTS raw_fato_doencas_unificado_2021 (
+CREATE TABLE IF NOT EXISTS raw_fato_doencas_2021 (
     codigo_ibge TEXT,
     total_casos_esquistossomose TEXT,
     total_casos_leptospirose TEXT,
-    total_casos_colera TEXT
+    total_mortes_baixo_saneamento TEXT
 );
 
-COPY raw_fato_doencas_unificado_2021 (
+COPY raw_fato_doencas_2021 (
     codigo_ibge,
     total_casos_esquistossomose,
     total_casos_leptospirose,
-    total_casos_colera
+    total_mortes_baixo_saneamento
 )
-FROM '/imports/raw_fato_doencas_unificado_2021.csv'
+FROM '/imports/raw_fato_doencas_2021.csv'
 WITH (
     FORMAT csv,
     HEADER true
