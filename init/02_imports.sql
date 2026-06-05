@@ -67,7 +67,12 @@ SELECT
 FROM raw_saneamento_minas_municipios;
 
 -- Inserindo os nomes das doencas em Doenca
+INSERT INTO Doenca (nome_doenca) VALUES ('amebiase');
+INSERT INTO Doenca (nome_doenca) VALUES ('colera');
+INSERT INTO Doenca (nome_doenca) VALUES ('diarreia_provavel_infec');
 INSERT INTO Doenca (nome_doenca) VALUES ('esquistossomose');
+INSERT INTO Doenca (nome_doenca) VALUES ('febre_tifoide');
+INSERT INTO Doenca (nome_doenca) VALUES ('helmintiase');
 INSERT INTO Doenca (nome_doenca) VALUES ('leptospirose');
 
 -- Inserindo os dados em Doenca_Municipio
@@ -82,9 +87,49 @@ SELECT
     src.total_casos
 FROM (
     SELECT
+        'amebiase'::TEXT AS nome_doenca,
+        codigo_ibge::INT AS cod_munip,
+        COALESCE(NULLIF(REPLACE(internacoes_amebiase, ',', '.'), ''), '0')::NUMERIC::INT AS total_casos
+    FROM raw_fato_doencas_2021
+
+    UNION ALL
+
+    SELECT
+        'colera'::TEXT AS nome_doenca,
+        codigo_ibge::INT AS cod_munip,
+        COALESCE(NULLIF(REPLACE(internacoes_colera, ',', '.'), ''), '0')::NUMERIC::INT AS total_casos
+    FROM raw_fato_doencas_2021
+
+    UNION ALL
+
+    SELECT
+        'diarreia_provavel_infec'::TEXT AS nome_doenca,
+        codigo_ibge::INT AS cod_munip,
+        COALESCE(NULLIF(REPLACE(internacoes_diarreia_provavel_infec, ',', '.'), ''), '0')::NUMERIC::INT AS total_casos
+    FROM raw_fato_doencas_2021
+
+    UNION ALL
+
+    SELECT
         'esquistossomose'::TEXT AS nome_doenca,
         codigo_ibge::INT AS cod_munip,
-        COALESCE(NULLIF(REPLACE(total_casos_esquistossomose, ',', '.'), ''), '0')::NUMERIC::INT AS total_casos
+        COALESCE(NULLIF(REPLACE(internacoes_esquistossomose, ',', '.'), ''), '0')::NUMERIC::INT AS total_casos
+    FROM raw_fato_doencas_2021
+
+    UNION ALL
+
+    SELECT
+        'febre_tifoide'::TEXT AS nome_doenca,
+        codigo_ibge::INT AS cod_munip,
+        COALESCE(NULLIF(REPLACE(internacoes_febre_tifoide, ',', '.'), ''), '0')::NUMERIC::INT AS total_casos
+    FROM raw_fato_doencas_2021
+
+    UNION ALL
+
+    SELECT
+        'helmintiase'::TEXT AS nome_doenca,
+        codigo_ibge::INT AS cod_munip,
+        COALESCE(NULLIF(REPLACE(internacoes_helmintiases, ',', '.'), ''), '0')::NUMERIC::INT AS total_casos
     FROM raw_fato_doencas_2021
 
     UNION ALL
@@ -92,7 +137,7 @@ FROM (
     SELECT
         'leptospirose'::TEXT AS nome_doenca,
         codigo_ibge::INT AS cod_munip,
-        COALESCE(NULLIF(REPLACE(total_casos_leptospirose, ',', '.'), ''), '0')::NUMERIC::INT AS total_casos
+        COALESCE(NULLIF(REPLACE(internacoes_leptospiroses, ',', '.'), ''), '0')::NUMERIC::INT AS total_casos
     FROM raw_fato_doencas_2021
 ) src
 JOIN Doenca d

@@ -3,18 +3,28 @@
 -- 1) Doencas (arquivo com cabecalho na primeira linha)
 CREATE TABLE IF NOT EXISTS raw_fato_doencas_2021 (
     codigo_ibge TEXT,
-    total_casos_esquistossomose TEXT,
-    total_casos_leptospirose TEXT,
+    internacoes_amebiase TEXT,
+    internacoes_colera TEXT,
+    internacoes_diarreia_provavel_infec TEXT,
+    internacoes_esquistossomose TEXT,
+    internacoes_febre_tifoide TEXT,
+    internacoes_helmintiases TEXT,
+    internacoes_leptospiroses TEXT,
     total_mortes_baixo_saneamento TEXT
 );
 
 COPY raw_fato_doencas_2021 (
     codigo_ibge,
-    total_casos_esquistossomose,
-    total_casos_leptospirose,
+    internacoes_amebiase,
+    internacoes_colera,
+    internacoes_diarreia_provavel_infec,
+    internacoes_esquistossomose,
+    internacoes_febre_tifoide,
+    internacoes_helmintiases,
+    internacoes_leptospiroses,
     total_mortes_baixo_saneamento
 )
-FROM '/imports/raw_fato_doencas_2021.csv'
+FROM '/imports/raw_doencas_mg_2021.csv'
 WITH (
     FORMAT csv,
     HEADER true
