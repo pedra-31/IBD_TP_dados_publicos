@@ -24,7 +24,7 @@ COPY raw_fato_doencas_2021 (
     internacoes_leptospiroses,
     total_mortes_baixo_saneamento
 )
-FROM '/imports/raw_doencas_mg_2021.csv'
+FROM '/imports/raw_doencas_saneamento_mg_2021_unificado_completo.csv'
 WITH (
     FORMAT csv,
     HEADER true

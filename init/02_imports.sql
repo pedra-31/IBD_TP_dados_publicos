@@ -146,12 +146,20 @@ JOIN Municipio m
   ON m.cod_munip = src.cod_munip;
 
 -- Inserindo os dados de mortalidade em municipio
-UPDATE Municipio
-SET mortalidade_saneamento = src.total_mortes_baixo_saneamento
-FROM (
-    SELECT
-        codigo_ibge::INT AS cod_munip,
-        COALESCE(NULLIF(REPLACE(total_mortes_baixo_saneamento, ',', '.'), ''), '0')::NUMERIC::INT AS total_mortes_baixo_saneamento
-    FROM raw_fato_doencas_2021
-) src
-WHERE Municipio.cod_munip = src.cod_munip;
+CREATE TABLE tmp_mortalidade (
+    codigo_ibge TEXT,
+    total_obitos_saneamento TEXT
+);
+
+COPY tmp_mortalidade
+FROM '/imports/raw_fato_mortalidade_geral.csv'
+WITH (FORMAT csv, HEADER true);
+
+UPDATE Municipio m
+SET mortalidade_saneamento =
+    COALESCE(
+        NULLIF(REPLACE(t.total_obitos_saneamento, ',', '.'), ''),'0')::NUMERIC::INT
+FROM tmp_mortalidade t
+WHERE m.cod_munip = t.codigo_ibge::INT;
+
+DROP TABLE tmp_mortalidade;
