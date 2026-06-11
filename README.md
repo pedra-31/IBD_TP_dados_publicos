@@ -18,3 +18,7 @@ docker compose up --build
 ```
 
 Isso inicia o banco de dados, roda os scripts sql e gera os outputs em: `python\outputs`
+
+## Outputs estáticos
+
+Outputs estáticos estão na pasta `csv\__outputs__`
