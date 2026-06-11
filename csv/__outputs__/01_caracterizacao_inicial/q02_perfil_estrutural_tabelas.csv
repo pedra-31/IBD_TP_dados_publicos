@@ -1,0 +1,8 @@
+nome_tabela,total_colunas,colunas_numericas,colunas_textuais,colunas_temporais
+raw_saneamento_minas_municipios,23,0,23,0
+fato_saneamento,15,15,0,0
+raw_fato_doencas_2021,9,0,9,0
+municipio,6,4,2,0
+prestador,5,1,4,0
+doenca_municipio,3,3,0,0
+doenca,2,1,1,0
