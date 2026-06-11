@@ -6,23 +6,10 @@ OUTPUT_DIR = BASE_DIR / "outputs" / "02_definicao_objetivos"
 OUTPUT_FILE = OUTPUT_DIR / "questoes_de_pesquisa.md"
 
 
-TEMPLATE = """# Questoes de pesquisa
+TEMPLATE = """
+# Etapa 2 - Definicao dos objetivos
 
-## Questao 1
-- Pergunta:
-- Motivacao:
-- Tabelas e atributos:
-- Filtro temporal/geografico:
-
-## Questao 2
-- Pergunta:
-- Motivacao:
-- Tabelas e atributos:
-- Filtro temporal/geografico:
-
-## Hipoteses iniciais
-- Hipotese 1:
-- Hipotese 2:
+Esta etapa é conceitual. Não á necessidade de fazer chamadas sql
 """
 
 
