@@ -5,7 +5,7 @@ Este repositório segue a ideia de manter os dados originais intactos e criar ca
 ## Estrutura
 
 - `csv/`: arquivos brutos e exportações em CSV.
-- `init/`: 
+- `init/`: arquivos de inicialização do banco de dados
 - `python/`: runner e scripts sql.
 
 ## Fluxo 
